@@ -1,0 +1,29 @@
+.container{
+    width: 700px;
+    height: 300px;
+    margin-left: 300px;
+
+}
+.left{
+    float: left;
+    /* height: 200px; */
+    background-color: lightblue;
+    width: 50%;
+    /* margin-left: 100px; */
+}
+.right{
+    float: left;
+    background-color: lightblue;
+    /* height: 200px; */
+    /* width: 400px; */
+    width: 50%;
+    /* margin-right: 150px; */
+}
+
+p{
+    font-size: 20px;
+    color: cornflowerblue;
+}
+.container{
+    display: flex;
+}
